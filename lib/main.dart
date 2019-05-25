@@ -18,10 +18,6 @@ class _MyAppState extends State<MyApp> {
 
   @override
   void initState(){
-    PermissionHandler().requestPermissions([
-      PermissionGroup.storage,
-      PermissionGroup.microphone
-    ]);
     super.initState();
   }
   
